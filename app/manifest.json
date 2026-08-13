@@ -1,0 +1,10 @@
+{
+  "name": "คว้าฝัน (Catch the Dream)",
+  "short_name": "คว้าฝัน",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0f1220",
+  "theme_color": "#7c6cff",
+  "description": "Career GPS สำหรับเด็กไทย — ค้นตัวเอง เรียนสกิล สร้างแผน และแมตช์โอกาสจริง",
+  "icons": []
+}
