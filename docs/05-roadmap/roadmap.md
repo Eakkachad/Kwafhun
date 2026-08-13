@@ -17,15 +17,16 @@
 ## แผนรายเฟส / Phased Roadmap
 
 ### Phase 1 — Pilot: City-First (6–12 เดือน)
-> เริ่มจากเมืองหัวเมืองที่มีทรัพยากรแล้ว ไม่เริ่มจากชนบท
+> เริ่มจากเมืองหัวเมืองที่มีทรัพยากรแล้ว ไม่เริ่มจากชนบท — KPI หลัก + วิธีวัด ดูใน `docs/03-architecture/PRD.md` §6
 - **ขอบเขต:** มหาวิทยาลัยเครือข่าย 4 แห่ง (บูรพา/นเรศวร/มข/มช) + โรงเรียนหัวเมืองใกล้เคียง
-- **ตัวชี้วัด:**
-  - นักเรียนเข้าถึง Discovery > 50,000 คน
-  - ผ่าน Screening (เรียนคอร์สพื้นฐาน + วัดความสนใจ) > 5,000 คน
-  - เข้าร่วมค่าย/กิจกรรมกับมหาวิทยาลัย > 1,000 คน
-  - Teacher Report > 1,000 ฉบับ
-  - Sponsorship ที่นั่ง Bootcamp 2–3 ที่นั่ง/รุ่น
-- **Demo เป้าหมายสำหรับ Hackathon:** Discovery + คอร์ส Learn + Achievement + Roadmap + Teacher PDF
+- **ตัวชี้วัด (วัดผลได้จริง — เครื่องมือ + baseline ระบุใน PRD §6):**
+  - North Star: % นักเรียน "ตัดสินใจได้" (pre-post 5 ข้อ) — baseline จาก 30 คนแรก
+  - Engagement: % เรียนคอร์สจบ ≥1 (เป้า > 60% ของที่เริ่ม)
+  - Screening yield: % ผ่าน screening → เข้าค่ายจริง (เป้า > 30%)
+  - Teacher time: < 5 นาที/คาบ ในการได้รายงาน (ระบบจับเวลา)
+  - Teacher reuse: > 50% ใช้ซ้ำเดือนถัดไป
+  - Pipeline: แมตช์ทุนจริง ≥ 10 คนใน pilot
+- **Demo เป้าหมายสำหรับ Hackathon:** Discovery + คอร์ส Learn + Achievement + Roadmap + Teacher PDF (4 หน้าจอฉลุย)
 
 ### Phase 2 — Mid-term Expansion (1–3 ปี)
 - **ขอบเขต:** ขยายผ่านเครือข่าย สพฐ. 7,000+ แห่ง + AIS Academy Network

@@ -36,8 +36,9 @@
 
 ## Slide 5 — Product Demo / Prototype
 
-- แสดง: หน้าต่าง Discovery / คอร์ส Learn + Achievement / 1-Page Dream Roadmap / Teacher Dashboard (สรุป 1 คลิก)
+- แสดง 4 หน้าจอหลัก: Discovery / คอร์ส Learn + Achievement / 1-Page Dream Roadmap / Teacher Dashboard (สรุป 1 คลิก)
 - **Message:** Zero-Setup for Teachers + Constraint-Based Screening — "veto, not vote": ระบบตัดตัวเลือกที่เป็นไปไม่ได้ก่อนแล้วจัดลำดับ (ทุกคำแนะนำ trace กลับที่มาได้)
+- **หลักการ:** Demo ฉลุย 4 หน้าจอ ดีกว่าโปรเจกต์พัง 10 หน้าจอ (รายละเอียดใน `docs/03-architecture/PRD.md` §4)
 
 ## Slide 6 — AIS Technology Integration
 
@@ -71,6 +72,7 @@
   - Skill Mismatch: 3.3 ล้านล้านบาท (TDRI)
   - STEM/AI Shortage: 300,000–500,000 คน (NESDC)
 - **Message:** "คว้าฝัน" คือนวัตกรรมต้นน้ำที่มุ่งสร้างกำลังคนทักษะสูง — ตัวเลขมหภาคใช้เล่าขนาดปัญหา ไม่ใช่ผลลัพธ์ที่เราวัดได้ใน pilot
+- **KPI ที่จะรายงานจริง:** "วัดได้ใน pilot" (pre-post + กลุ่มเทียบ) — ดู `docs/03-architecture/PRD.md` §6
 
 ---
 

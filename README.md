@@ -89,6 +89,7 @@ Discover (Netflix of Dreams) ─► Learn (Coursera-style คอร์ส + Gami
 
 ## เริ่มอ่านจากไหน / Quick Start
 
-1. [`docs/01-pitch/pitch-deck.md`](docs/01-pitch/pitch-deck.md) — โครงสร้างสไลด์ 10 หน้า
-2. [`docs/02-application/`](docs/02-application/) — เนื้อหาพร้อมคัดลอกลงใบสมัคร
-3. [`docs/03-architecture/risk-defense.md`](docs/03-architecture/risk-defense.md) — จุดเสี่ยง/Overclaim และวิธีแก้
+1. [`docs/03-architecture/PRD.md`](docs/03-architecture/PRD.md) — **เอกสารฉบับเดียวที่ตี solution ให้ชัด** (positioning, user journey, MVP scope, KPI, business model)
+2. [`docs/01-pitch/pitch-deck.md`](docs/01-pitch/pitch-deck.md) — โครงสร้างสไลด์ 10 หน้า
+3. [`docs/02-application/`](docs/02-application/) — เนื้อหาพร้อมคัดลอกลงใบสมัคร
+4. [`docs/03-architecture/risk-defense.md`](docs/03-architecture/risk-defense.md) — จุดเสี่ยง/Overclaim และวิธีแก้
