@@ -37,15 +37,15 @@
 ## Slide 5 — Product Demo / Prototype
 
 - แสดง: หน้าต่าง Discovery / คอร์ส Learn + Achievement / 1-Page Dream Roadmap / Teacher Dashboard (สรุป 1 คลิก)
-- **Message:** Zero-Setup for Teachers + ระบบคัดกรองเด็กที่สนใจจริงก่อนเข้าร่วมกิจกรรม
+- **Message:** Zero-Setup for Teachers + Constraint-Based Screening — "veto, not vote": ระบบตัดตัวเลือกที่เป็นไปไม่ได้ก่อนแล้วจัดลำดับ (ทุกคำแนะนำ trace กลับที่มาได้)
 
 ## Slide 6 — AIS Technology Integration
 
 - AIS 5G / Fibre → Connectivity + Offline Caching
 - AIS PLAYBOX / PLAY → Classroom Video
 - AIS LearnDi → Digital Badge / Skill (เส้นทางสะสม Badge สู่ Portfolio)
-- AIS Cloud → RAG AI + Security
-- **Message:** ใช้ ecosystem ของ AIS (โดยเฉพาะ LearnDi Badge) เป็นกลไกกลาง ไม่ใช่แค่ฟีเจอร์เสริม
+- AIS Cloud → Constraint-Aware Engine + Security (CPU-light → ประมวลผล Edge/Local ได้จริง)
+- **Message:** ใช้ ecosystem ของ AIS (โดยเฉพาะ LearnDi Badge) เป็นกลไกกลาง — engine เบา เหมาะกับ Edge ไม่ใช่แค่ฟีเจอร์เสริม
 
 ## Slide 7 — Feasibility & Offline Architecture
 

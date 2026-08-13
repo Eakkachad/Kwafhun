@@ -16,9 +16,12 @@
      ├─► Gamification: Achievement, แต้มสะสม, Badge (ตามหลัก SDT — เน้น feedback เชิงบวก ไม่เน้นการแข่ง)
      └─► Screening: ทำในคาบเรียน — คอร์สพื้นฐาน + แบบวัดความสนใจที่ครูดำเนินการในห้อง (ทุกคนเท่ากัน) ก่อนสมัครค่าย/กิจกรรม
 
-  3. RAG AI Pathway & Opportunity Router (Engine)
-     ├─► AI RAG ดึงข้อมูลที่ทีมป้อน/ได้รับอนุญาตเท่านั้น: หลักสูตร สพฐ., ทุน กสศ., TCAS, AIS LearnDi
-     └─► สร้าง "1-Page Dream Roadmap" รายบุคคล (พิมพ์เป็นกระดาษ/ดาวน์โหลดได้)
+  3. Constraint-Aware Matching Engine (แทน "RAG AI" ลอยๆ)
+     ├─► Constraint-Based Screening: ตัดชุดตัวเลือก "เป็นไปไม่ได้" ทิ้งก่อน (hard constraint)
+     │     แล้วค่อย score จัดลำดับตัวเลือกที่เหลือ (soft) — หลัก "veto, not vote"
+     ├─► Grounded Data: ดึงจากชุดข้อมูลที่ทีมป้อน/ได้รับอนุญาตเท่านั้น (สพฐ., กสศ., TCAS, AIS LearnDi)
+     ├─► Instant Update: เพิ่มข้อมูลทุน/คอร์สใหม่ → Roadmap อัปเดตได้ทันที (no retraining)
+     └─► Output: "1-Page Dream Roadmap" รายบุคคล + แมตช์ทุน (ทุกคำแนะนำ trace กลับที่มาข้อมูลได้)
 
   4. Human-in-the-Loop Ecosystem (Support System)
      ├─► Teacher Dashboard: สรุปรายงานความสนใจห้องเรียนใน 1 คลิก (ลดงานเอกสารครู)
@@ -40,10 +43,15 @@
 - Screening Engine: คะแนนคอร์สพื้นฐาน + แบบวัดความสนใจ → คัดเด็กที่สนใจจริงก่อนเข้าร่วมค่าย/กิจกรรม (กันงบจ่ายเปล่า)
 - Sponsorship Tracker: ติดตามเด็กที่เก็บ Achievement ครบเกณฑ์ → แมตช์ที่นั่ง Bootcamp ระดับประเทศ (2–3 ที่นั่ง)
 
-### 3. RAG AI Engine (Backend/AI)
-- Retrieval-Augmented Generation ดึงจากข้อมูลที่ทีมป้อน/ได้รับอนุญาตเท่านั้น (ไม่ใช่การอ้าง API สาธารณะของหน่วยงาน)
-- แหล่งข้อมูล: หลักสูตร สพฐ. / ทุน กสศ. / TCAS / AIS LearnDi (เก็บเป็นชุดข้อมูลที่รวบรวม/ได้รับอนุญาต)
+### 3. Constraint-Aware Matching Engine (Backend/Algorithmic)
+- **หลักการ "veto, not vote":** ตัดชุดตัวเลือกที่เข้าเงื่อนไขไม่ได้ (hard constraint: ระดับชั้น, เกณฑ์ทุน, พื้นที่, วิชาพื้นฐาน) ออกก่อน → แล้ว score จัดลำดับตัวเลือกที่เหลือ (soft: ความตรงกับความสนใจ/ความพร้อม)
+- **Grounded Data Only:** ใช้ชุดข้อมูลที่ทีมป้อน/ได้รับอนุญาตเท่านั้น (หลักสูตร สพฐ. / ทุน กสศ. / TCAS / AIS LearnDi) — AI ไม่เจนข้อมูลเอง
+- **Instant Update:** นำเข้าข้อมูลทุน/คอร์สใหม่ → แมตช์ได้ทันที (ไม่ต้อง retrain เหมือน LLM) — ลดต้นทุน + อัปเดตตลอดเวลา
+- **Deterministic & Verifiable:** ผลลัพธ์ซ้ำได้ทุกครั้ง (audit ได้) และทุกคำแนะนำ trace กลับไปยังแหล่งข้อมูลจริงได้ — สร้างความน่าเชื่อถือกับ กสศ./สพฐ./ผู้ปกครอง
+- **Edge/Local Ready:** engine เบา (constraint-based + data lookup) → ประมวลผลที่ขอบเครือข่าย AIS/Local ได้ ไม่ต้องพึ่ง Cloud ทุกครั้ง
 - Output: 1-Page Dream Roadmap + แมตช์ทุน Opportunity Pipeline
+
+> **หมายเหตุ:** แนวคิดนี้ได้รับแรงบันดาลใจด้านสถาปัตยกรรมจากงานวิจัย constraint pruning / ranking-first-filter ใน `docs/04-research/deepman-integration.md` — ไม่ได้เป็นการนำโค้ดจากโปรเจกต์อื่นมาใช้
 
 ### 4. Human-in-the-Loop
 - Teacher Dashboard → สรุป PDF รายงานรายห้อง 1 คลิก

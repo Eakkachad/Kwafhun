@@ -5,8 +5,8 @@
 ## แผน Tech Stack (ข้อเสนอ)
 
 - **Frontend:** Next.js / React (TypeScript) + Tailwind CSS — เป็น PWA
-- **AI:** RAG (Retrieval-Augmented Generation) ดึงข้อมูลจากฐานจริง (สพฐ., กสศ., AIS LearnDi, TCAS)
-- **Offline:** Service Worker Caching (PWA) — ครูดาวน์โหลดคอนเทนต์ล่วงหน้า
+- **Engine:** Constraint-Aware Matching Engine (hard-constraint filter ก่อน → score/rank) + grounded data จากชุดข้อมูลที่ป้อนเอง — deterministic, instant-update, verifiable (แรงบันดาลใจด้านสถาปัตยกรรม: `docs/04-research/deepman-integration.md`)
+- **Offline:** Service Worker Caching (PWA) — ครูดาวน์โหลดคอนเทนต์ล่วงหน้า + engine เบาประมวลผล Edge/Local ได้
 - **Compliance:** Two-Tier PDPA — Anonymous (วิเคราะห์) + Consent (รายงาน สพฐ.)
 
 ## หน้าจอที่ต้องทำสำหรับ Demo (ขอบเขตแคบ)

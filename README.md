@@ -15,6 +15,7 @@
 - [x] ฐานข้อมูลสถิติเชิงประจักษ์ (Data Bank) — `data/`
 - [x] เอกสารไอเดีย ใบสมัคร และ Pitch Deck — `docs/`
 - [x] โครงสร้างระบบและกลยุทธ์รับมือกรรมการ — `docs/03-architecture/`
+- [x] Research การบูรณาการงาน Deep_Man (Constraint-Aware Engine) — `docs/04-research/deepman-integration.md`
 - [ ] Prototype PWA (เริ่มหลังไอเดียแข็งแรง) — `app/`
 
 ## โครงสร้าง Repository
@@ -45,7 +46,7 @@ JUMP/
 
 1. **Discover** — The Netflix of Dreams: คลังวิดีโอสั้นจาก Role Model จริง (Crowdsourced) เปิดในคาบแนะแนว 1 ชม./สัปดาห์
 2. **Learn** — แพลตฟอร์มแบบ Netflix/Coursera: คอร์สเรียนรู้ได้ทันที + Gamification (Achievement/Reward) เพื่อสร้างแรงจูงใจต่อเนื่อง
-3. **Plan** — RAG AI สร้าง "1-Page Dream Roadmap" ส่วนบุคคล จากชุดข้อมูลที่ทีมป้อน/ได้รับอนุญาต (สพฐ. + กสศ. + AIS LearnDi + TCAS)
+3. **Plan** — Constraint-Aware Matching Engine: ตัดตัวเลือก "เป็นไปไม่ได้" ก่อนแล้วจัดลำดับ (veto, not vote) จากชุดข้อมูลที่ได้รับอนุญาต (สพฐ. + กสศ. + AIS LearnDi + TCAS) — deterministic, instant-update, ทุกคำแนะนำ trace กลับที่มาได้
 4. **Connect** — Opportunity Router เชื่อมเด็กยากจนเข้าหาทุน กสศ. / มหาวิทยาลัย + พี่เลี้ยง (Mentor Network) + Sponsorship ที่นั่ง Bootcamp ระดับประเทศ
 
 ## กลยุทธ์ Go-To-Market (City-First Strategy)
