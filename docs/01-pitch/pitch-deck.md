@@ -41,17 +41,17 @@
 
 ## Slide 6 — AIS Technology Integration
 
-- AIS 5G / Fibre → Connectivity
-- AIS PLAYBOX → Classroom Video
-- AIS LearnDi → Digital Badge / Skill
+- AIS 5G / Fibre → Connectivity + Offline Caching
+- AIS PLAYBOX / PLAY → Classroom Video
+- AIS LearnDi → Digital Badge / Skill (เส้นทางสะสม Badge สู่ Portfolio)
 - AIS Cloud → RAG AI + Security
-- **Message:** ใช้โครงข่าย AIS ปลดล็อกสื่อคุณภาพสูงสู่ห้องเรียนชนบท
+- **Message:** ใช้ ecosystem ของ AIS (โดยเฉพาะ LearnDi Badge) เป็นกลไกกลาง ไม่ใช่แค่ฟีเจอร์เสริม
 
 ## Slide 7 — Feasibility & Offline Architecture
 
 - PWA Browser Caching / Service Worker + AIS 5G Edge
-- Anonymous-First PDPA Compliance (เด็กอายุ <15 ปี)
-- **Message:** ข้ามข้อจำกัดเน็ต/อุปกรณ์ ปลอดภัยตามกฎหมาย
+- Two-Tier PDPA Compliance: Anonymous สำหรับวิเคราะห์ + Consent สำหรับรายงาน สพฐ.
+- **Message:** ข้ามข้อจำกัดเน็ต/อุปกรณ์ + รองรับกฎหมายคุ้มครองข้อมูลเด็กตั้งแต่สถาปัตยกรรม
 
 ## Slide 8 — Ecosystem & Business Model
 
@@ -67,10 +67,10 @@
 
 ## Slide 10 — Team & Macro Impact
 
-- **Key Stats:**
+- **Key Stats (บริบทของปัญหา):**
   - Skill Mismatch: 3.3 ล้านล้านบาท (TDRI)
   - STEM/AI Shortage: 300,000–500,000 คน (NESDC)
-- **Message:** "คว้าฝัน" คือนวัตกรรมต้นน้ำ สร้างกำลังคนทักษะสูง ขับเคลื่อน New S-Curve
+- **Message:** "คว้าฝัน" คือนวัตกรรมต้นน้ำที่มุ่งสร้างกำลังคนทักษะสูง — ตัวเลขมหภาคใช้เล่าขนาดปัญหา ไม่ใช่ผลลัพธ์ที่เราวัดได้ใน pilot
 
 ---
 
@@ -79,4 +79,5 @@
 1. เปิดด้วย **ภาพของเด็ก** ไม่ใช่ตัวเลขก่อน
 2. ตัวเลข 1 จุดต่อสไลด์ — อย่าแปะทุกอย่าง
 3. แยก "Problem เรื่องเงิน" ออกจาก "Problem เรื่องความฝัน" ให้ชัด
-4. ปิดด้วย CTA: อยากเห็น Pilot ในโรงเรียน 7,000 แห่ง
+4. ตัวเลขมหภาค (3.3 ล้านล้าน, shortage) = **บริบทของปัญหา** ไม่ใช่ผลลัพธ์ของเรา
+5. ปิดด้วย CTA: "อยากเห็น Pilot ในเมืองหัวเมือง 4 แห่ง แล้วขยายสู่ 7,000 โรงเรียน"

@@ -7,7 +7,7 @@
 - **Frontend:** Next.js / React (TypeScript) + Tailwind CSS — เป็น PWA
 - **AI:** RAG (Retrieval-Augmented Generation) ดึงข้อมูลจากฐานจริง (สพฐ., กสศ., AIS LearnDi, TCAS)
 - **Offline:** Service Worker Caching (PWA) — ครูดาวน์โหลดคอนเทนต์ล่วงหน้า
-- **Compliance:** Anonymous-First + PDPA Consent
+- **Compliance:** Two-Tier PDPA — Anonymous (วิเคราะห์) + Consent (รายงาน สพฐ.)
 
 ## หน้าจอที่ต้องทำสำหรับ Demo (ขอบเขตแคบ)
 
