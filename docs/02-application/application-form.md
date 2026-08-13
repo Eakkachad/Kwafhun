@@ -45,6 +45,37 @@
 
 ---
 
+## 4. แนวคิดของไอเดียที่นำเสนอ (Solution Concept)
+
+> รายละเอียดเชิงลึก (positioning, user journey, MVP scope, KPI, business model) ดู `docs/03-architecture/PRD.md` — เอกสารนี้คือฉบับสรุปสำหรับกรอกใบสมัคร
+
+> "คว้าฝัน" คือ **"Netflix of Jobs"** — แพลตฟอร์มค้นหาอาชีพเชิงโต้ตอบที่ขับเคลื่อนด้วย **Knowledge Graph + Constraint-Aware Matching Engine** แทนที่จะเป็นเพียงคลังวิดีโอหรือแบบทดสอบบุคลิกภาพแบบเดิม โดยแก้ปัญหาที่ระบุไว้ในข้อ 2 ทีละมิติดังนี้:
+
+| ปัญหา (จากข้อ 2) | กลไกที่ "คว้าฝัน" ใช้แก้ |
+|---|---|
+| Dream Gap / ฝันกระจุก 10 อาชีพ (47–50%) | **Job Recommendation บน Knowledge Graph**: ทุกครั้งที่เด็กดู/สนใจอาชีพหนึ่ง ระบบแนะนำอาชีพที่ "เชื่อมกันด้วยทักษะ" ที่เด็กอาจไม่เคยเห็น (เช่น สนใจ Data Scientist → เห็น ML Engineer, Bioinformatician, Actuary) เปิดขอบเขตความฝันอย่างเป็นระบบ ไม่ใช่สุ่ม |
+| ขาด Role Model / มองไม่เห็นอาชีพจริง | คอนเทนต์หลัก **"A Day With..."** — วิดีโอสั้น "1 วันกับอาชีพจริง" (1 วันกับ Data Scientist / 1 วันกับวิศวกรอวกาศ ฯลฯ) จาก Crowdsourced Role Model Network |
+| การแนะแนวแบบเดิมไม่ได้ผลเป็น Action Plan จริง | **Constraint-Aware Matching Engine** ตัดตัวเลือกที่ "เป็นไปไม่ได้" ออกก่อน (veto) แล้วจัดลำดับที่เหลือ (rank) เดินบน Knowledge Graph จากโปรไฟล์ความสนใจเด็ก ประกอบเป็น "1-Page Dream Roadmap" ที่จบที่องค์กรจริง (คอร์ส/ทุน/มหาวิทยาลัย) ไม่ใช่คำแนะนำลอยๆ |
+| เด็กยากจนเข้าไม่ถึงทุน/โอกาสที่มีอยู่แล้ว | **Opportunity Router**: Roadmap เดียวกันเชื่อมตรงไปยังทุน กสศ. / มหาวิทยาลัยเครือข่าย / AIS LearnDi ที่ตรงกับเส้นทางของเด็กคนนั้น |
+
+**กลไกทางเทคนิค (Technical Mechanism):**
+
+1. **Knowledge Graph** เป็นแกนกลางเดียวที่ขับเคลื่อนทั้ง Discovery, Learn และ Plan/Connect — Node: `Job`, `Skill`, `Pathway/Course`, `Organization` (มหาวิทยาลัย/กสศ./นายจ้างพันธมิตร/AIS LearnDi), `Content`; Edge: `requires_skill`, `leads_to`, `offered_by`, `sponsors`, `related_to`
+2. **Constraint-Aware Matching Engine ("veto, not vote")** — ตัดตัวเลือกที่เข้าเงื่อนไขไม่ได้ออกก่อน (hard constraint: ระดับชั้น/เกณฑ์ทุน/พื้นที่/วิชาพื้นฐาน) แล้วจัดลำดับที่เหลือ (soft) ใช้หลักเดียวกันทั้งแนะนำอาชีพและแมตช์ทุน — **deterministic, instant-update (ไม่ต้อง retrain), ทุกคำแนะนำ trace กลับที่มาข้อมูลได้** (ไม่ใช่ LLM/RAG แบบ black-box — ดู `docs/03-architecture/risk-defense.md`)
+3. ระบบคัดกรองความสนใจ (Screening) เกิดขึ้น**ในคาบเรียน** ทุกคนเรียนเท่ากัน ป้องกันไม่ให้ "Netflix of Jobs" กลายเป็นสิทธิพิเศษของเด็กมีทรัพยากรที่บ้าน (ดู `docs/03-architecture/risk-defense.md` — Overclaim 6)
+
+**การบูรณาการเทคโนโลยี AIS ในโซลูชัน:**
+- **AIS Cloud** โฮสต์ Knowledge Graph DB + Constraint-Aware Engine ระดับ Enterprise — engine เบาพอประมวลผลที่ Edge/Local ได้จริง
+- **AIS LearnDi** เป็นทั้งแหล่งคอร์ส/Digital Badge ในกราฟ และปลายทางหนึ่งของ Roadmap (เส้นทางสะสม Badge สู่ Portfolio)
+- **AIS 5G/Fibre + PLAYBOX** ส่งคอนเทนต์ "A Day With..." แบบ Offline-Ready ถึงห้องเรียนที่เน็ตไม่เสถียร
+
+**จุดเด่นของร่างคำตอบ:**
+- ตอบโจทย์ Problem-Solution Fit ครบ — ทุกกลไกผูกกับปัญหาที่ระบุไว้ในข้อ 2 แบบ 1:1 ไม่ใช่ฟีเจอร์ลอยๆ
+- แสดงความสามารถเชิงเทคนิคจริงที่ทำได้ใน 3 วัน (Knowledge Graph + Constraint-Aware Engine, deterministic) ตรงเกณฑ์ Technical Capabilities (35%) โดยไม่ต้องพึ่งการเทรน/เรียก LLM ที่เสี่ยงพังหน้า demo
+- ควบคุม Overclaim: ไม่เคลมว่าใช้ "AI agent" หรือ RAG — ระบุเป็น Constraint-Based Engine ที่ deterministic และ trace ได้เสมอ; "ข้อมูลพันธมิตรองค์กร/นายจ้าง" ระบุเป็น**เป้าหมายการเป็นพันธมิตร** ไม่ใช่การอ้างสิทธิ์เข้าถึงข้อมูลที่มีอยู่แล้ว (ดู `docs/03-architecture/risk-defense.md`, `docs/04-research/deepman-integration.md`)
+
+---
+
 ## Checklist ก่อนส่งใบสมัคร
 
 - [ ] ตัวเลขตรงกับ Data Bank (`data/stats/stats.th.json`)
@@ -52,3 +83,4 @@
 - [ ] ระบุการบูรณาการ AIS ครบ (5G, LearnDi Badge, Cloud) — ใช้ "ข้อมูลที่ได้รับอนุญาต" ไม่ใช้อ้าง API สาธารณะ
 - [ ] มีสถาปัตยกรรม PDPA สองชั้น (Anonymous วิเคราะห์ + Consent รายงาน สพฐ.) สำหรับเด็ก <15 ปี
 - [ ] คอร์สคัดกรองระบุว่าเกิดขึ้น "ในคาบเรียน" (ทุกคนเท่าเทียม) ไม่ใช่ให้เรียนที่บ้าน
+- [ ] Solution (ข้อ 4) ใช้คำว่า "Constraint-Aware Matching Engine" ไม่ใช่ "RAG"/"AI agent" — ตรงกับ `docs/03-architecture/risk-defense.md`

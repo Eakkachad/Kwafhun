@@ -27,12 +27,12 @@
 
 ## Slide 4 — Solution Overview
 
-- **Product:** Discover ➔ Learn ➔ Plan ➔ Connect
-  - Discover: Interactive VOD (The Netflix of Dreams)
+- **Product:** Discover ➔ Learn ➔ Plan ➔ Connect — ขับเคลื่อนด้วย Knowledge Graph + Constraint-Aware Matching Engine เดียว (ไม่ใช่ 4 ระบบแยกกัน)
+  - Discover: **"Netflix of Jobs"** — คอนเทนต์ "A Day With..." (1 วันกับอาชีพจริง) + แนะนำอาชีพเกี่ยวข้องผ่าน Knowledge Graph
   - Learn: Coursera-style คอร์ส + Gamification (Achievement/Reward)
-  - Plan: AI Personalized Action Plan
+  - Plan: Constraint-Aware Matching Engine ("veto, not vote") → 1-Page Dream Roadmap
   - Connect: Opportunity Router
-- **Message:** เปลี่ยนคาบแนะแนวเป็นพื้นที่ค้นหาความฝัน + เส้นทางเรียนรู้จริง สร้าง Intrinsic Motivation
+- **Message:** เปลี่ยนคาบแนะแนวเป็นพื้นที่ค้นหาความฝัน + เส้นทางเรียนรู้จริง สร้าง Intrinsic Motivation — ทุกคำแนะนำ deterministic และ trace กลับที่มาข้อมูลได้
 
 ## Slide 5 — Product Demo / Prototype
 
