@@ -20,15 +20,25 @@ data/
 
 ## สถิติที่ยังต้องตรวจ (UNVERIFIED)
 
-รายการเหล่านี้ใช้ในเอกสารอยู่แต่ยังไม่มีเอกสารต้นทางแน่ชัด — เป็นงานเร่งด่วนของ Researcher:
+รายการที่ยังไม่มีเอกสารต้นทางแน่ชัด — งานเร่งด่วนของ Researcher:
 
 | id | สถิติ | สถานะ |
 |---|---|---|
 | `intrinsic_motivation_retention` | Intrinsic Motivation → Retention Rate สูงขึ้น | ❌ ยังไม่มี paper |
 | `informal_low_skill_labor` | แรงงานนอกระบบ > 50% | ❌ ยังไม่มี paper |
 | `guidance_teacher_shortage` | 60–70% ไม่มีครูแนะแนวตรงสาย | ❌ ยังไม่มี paper |
-| `teacher_paperwork_load` | ครูใช้เวลาเอกสาร 30–40% | ❌ ยังไม่มี paper |
+| `students_no_direction` | 59–60% ไม่รู้จะเรียนอะไร | ⚠️ เป็น survey ไม่ใช่สถิติทางการ |
 | `primary_target_volume` | กลุ่มเป้าหมาย 3.2 ล้านคน | ❌ คำนวณเอง |
 | `teacher_target` | ครู 150,000 คน | ❌ คำนวณเอง |
 
 > 📌 หลักการประเมิน: สถิติจากรายงานองค์กร (กสศ., NESDC, TDRI, OECD) เชื่อถือได้ รายการอื่นต้องหา primary source
+
+## สถิติที่ตรวจ verified แล้วจาก Research 2026
+
+ตัวเลขเหล่านี้ผ่านการตรวจแหล่งอ้างอิงแล้ว (ดู `docs/04-research/pain-points.md`):
+- `teacher_paperwork_load` ✅ อัปเดตเป็น 42% ของเวลาทำงาน = 84 วัน/ปี (สสค. 2563)
+- `children_out_of_system` ✅ 1.02 ล้านคน นอกระบบ (กสศ. 2567)
+- `guidance_hours` ✅ 10–15 ชม./ปี (UNICEF)
+- `university_seats_exceed` ✅ ที่นั่ง > ผู้สมัคร (The MATTER)
+- `gamification_effect`, `rewards_harm_intrinsic`, `role_model_effect` ✅ งานวิจัย peer-reviewed
+- `generation_employment`, `bootcamp_cost` ✅ เว็บองค์กรจริง

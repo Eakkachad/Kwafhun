@@ -6,20 +6,26 @@
 ## เฟสปัจจุบัน (Current Phase)
 
 **Phase 0 — Ideation & Data Bank (เราอยู่ตรงนี้)**
-- [x] Data Bank สถิติครบ
+- [x] Data Bank สถิติครบ + Research Insights 2026 (pain point 6 มิติ)
 - [x] Pitch Deck 10 สไลด์
 - [x] เนื้อหาใบสมัคร
 - [x] Risk Defense
+- [ ] ตรวจ `[UNVERIFIED]` ที่ค้างใน Data Bank ก่อน pitch (โดยเฉพาะ guidance_teacher_shortage, informal_low_skill_labor, intrinsic_motivation_retention)
+
+> **Validation จาก research:** กลยุทธ์ City-First สอดคล้องกับวิธีของ กสศ. ที่ใช้ "โค้ชอาชีพประจำพื้นที่ (Area-Based Career Coach)" ทดลองใน ชลบุรี เชียงใหม่ สุราษฎร์ธานี อุบลราชธานี กทม. ก่อนขยาย 34 จังหวัด — เราสามารถอ้างได้ว่าเดินตามโมเดลที่ กสศ. พิสูจน์แนวทางมาแล้ว (research.eef.or.th)
 
 ## แผนรายเฟส / Phased Roadmap
 
-### Phase 1 — Pilot (6–12 เดือน)
-- **ขอบเขต:** 500+ โรงเรียนขยายโอกาส (20 จังหวัด)
+### Phase 1 — Pilot: City-First (6–12 เดือน)
+> เริ่มจากเมืองหัวเมืองที่มีทรัพยากรแล้ว ไม่เริ่มจากชนบท
+- **ขอบเขต:** มหาวิทยาลัยเครือข่าย 4 แห่ง (บูรพา/นเรศวร/มข/มช) + โรงเรียนหัวเมืองใกล้เคียง
 - **ตัวชี้วัด:**
-  - นักเรียนได้รับการประเมิน > 150,000 คน
-  - Teacher Report > 10,000 ฉบับ
-  - ครูประหยัดเวลาเอกสารได้ (เป้าออกแบบ: เหลือ 1 คลิก)
-- **Demo เป้าหมายสำหรับ Hackathon:** 1-2 หน้าจอหลัก (Discovery + Roadmap + Teacher PDF)
+  - นักเรียนเข้าถึง Discovery > 50,000 คน
+  - ผ่าน Screening (เรียนคอร์สพื้นฐาน + วัดความสนใจ) > 5,000 คน
+  - เข้าร่วมค่าย/กิจกรรมกับมหาวิทยาลัย > 1,000 คน
+  - Teacher Report > 1,000 ฉบับ
+  - Sponsorship ที่นั่ง Bootcamp 2–3 ที่นั่ง/รุ่น
+- **Demo เป้าหมายสำหรับ Hackathon:** Discovery + คอร์ส Learn + Achievement + Roadmap + Teacher PDF
 
 ### Phase 2 — Mid-term Expansion (1–3 ปี)
 - **ขอบเขต:** ขยายผ่านเครือข่าย สพฐ. 7,000+ แห่ง + AIS Academy Network

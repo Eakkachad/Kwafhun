@@ -34,6 +34,15 @@
 
 - **Fix:** บังคับใช้ **RAG (Retrieval-Augmented Generation)** ดึงจากฐานข้อมูลจริงเท่านั้น (สพฐ., กสศ., AIS LearnDi, TCAS) ห้าม AI เจนข้อมูลเอง
 
+## Risk — Gamification กลายเป็น "รางวัล" มากไป ทำลายแรงจูงใจจริง
+
+- **ปัญหา (หลักฐานจริง):** Meta-analysis 128 การทดลอง (Deci, Koestner & Ryan 1999) พบรางวัลจับต้องได้ทำลาย intrinsic motivation (d = −0.28 ถึง −0.40) โดยเฉพาะในเด็ก; Hanus & Fox (2015, 16 สัปดาห์) พบว่า badge+leaderboard มากไปลดแรงจูงใจภายในเพราะ social comparison
+- **Fix:** ออกแบบ Gamification แบบ SDT (Self-Determination Theory):
+  - Reward ต้องเป็น **"โอกาสจริงที่ต่อยอด"** (ที่นั่งค่าย/บูทแคมป์/ทุน) ไม่ใช่ของรางวัลรายกิจกรรม
+  - เน้น **Badge + ความคืบหน้า + คำชมเชิงบวก** (feedback เพิ่ม intrinsic motivation d=+0.33)
+  - หลีกเลี่ยง leaderboard แข่งเด่นชัด เปลี่ยนเป็น "ความสำเร็จร่วมของห้อง"
+  - เล่าให้กรรมการฟังว่าออกแบบตามหลักฐาน SDT อย่างตั้งใจ → จุดแข็งที่เหนือคู่แข่ง
+
 ## Risk — PDPA ข้อมูลเด็กอายุ <15 ปี
 
 - **Fix:** **Anonymous-First System** — รหัสจำลองรายห้อง ไม่ใช้ชื่อจริง/เลขบัตรประชาชน + ระบบ Consent จากผู้ปกครอง

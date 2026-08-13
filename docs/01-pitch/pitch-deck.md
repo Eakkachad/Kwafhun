@@ -27,16 +27,17 @@
 
 ## Slide 4 — Solution Overview
 
-- **Product:** Discover ➔ Plan ➔ Connect
+- **Product:** Discover ➔ Learn ➔ Plan ➔ Connect
   - Discover: Interactive VOD (The Netflix of Dreams)
+  - Learn: Coursera-style คอร์ส + Gamification (Achievement/Reward)
   - Plan: AI Personalized Action Plan
   - Connect: Opportunity Router
-- **Message:** เปลี่ยนคาบแนะแนวเป็นพื้นที่ค้นหาความฝัน สร้าง Intrinsic Motivation
+- **Message:** เปลี่ยนคาบแนะแนวเป็นพื้นที่ค้นหาความฝัน + เส้นทางเรียนรู้จริง สร้าง Intrinsic Motivation
 
 ## Slide 5 — Product Demo / Prototype
 
-- แสดง: หน้าต่าง Discovery / 1-Page Dream Roadmap / Teacher Dashboard (สรุป 1 คลิก)
-- **Message:** Zero-Setup for Teachers — ลดภาระงานเอกสาร
+- แสดง: หน้าต่าง Discovery / คอร์ส Learn + Achievement / 1-Page Dream Roadmap / Teacher Dashboard (สรุป 1 คลิก)
+- **Message:** Zero-Setup for Teachers + ระบบคัดกรองเด็กที่สนใจจริงก่อนเข้าร่วมกิจกรรม
 
 ## Slide 6 — AIS Technology Integration
 
@@ -55,14 +56,14 @@
 ## Slide 8 — Ecosystem & Business Model
 
 - โมเดล B2B2G / Social Enterprise
-- กสศ./สพฐ. ได้เครื่องมือชี้เป้าเด็ก + มหาวิทยาลัยจ่าย Sponsor/Matchmaking + AIS ได้ ESG/ขยาย 5G
-- **Message:** โมเดลสามประสานที่ยั่งยืน ไม่ใช่แค่ CSR
+- กสศ./สพฐ. ได้เครื่องมือชี้เป้าเด็ก + มหาวิทยาลัยจ่าย Sponsor/Matchmaking (ใช้ทรัพยากรค่าย/สถานที่/นิสิตพี่เลี้ยง) + AIS ได้ ESG/ขยาย 5G
+- **Message:** โมเดลสามประสานที่ยั่งยืน ไม่ใช่แค่ CSR — เมืองหัวเมือง = ต้นแบบพิสูจน์ได้ก่อนขยายชนบท
 
 ## Slide 9 — Go-To-Market & Roadmap
 
-- Phase 1: Pilot 50–500 โรงเรียนขยายโอกาส
+- Phase 1 (City-First): Pilot ในเมืองหัวเมือง 4 แห่ง (บูรพา/นเรศวร/มข/มช) ผ่านเครือข่ายมหาวิทยาลัย + คัดกรองเด็กที่สนใจจริง
 - Phase 2: ขยาย 7,000+ แห่ง ผ่านเครือข่าย สพฐ. + AIS Academy
-- **Message:** ขยายผลผ่านโครงสร้างรัฐที่มีอยู่
+- **Message:** เริ่มจากที่ "ทำได้จริงและมีทรัพยากร" ก่อน พิสูจน์โมเดล → ขยายสู่ชนบท
 
 ## Slide 10 — Team & Macro Impact
 

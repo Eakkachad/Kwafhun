@@ -163,14 +163,115 @@
       },
       {
         "id": "teacher_paperwork_load",
-        "label": "เวลาครูที่ใช้กับงานเอกสาร/การประเมิน",
-        "value_min": 30,
-        "value_max": 40,
+        "label": "เวลาครูที่ใช้กับงานนอกห้องเรียน (เอกสาร/ธุรการ)",
+        "value": 42,
+        "value_alt": 84,
         "unit": "%",
-        "display": "30–40% ของเวลาทำงานทั้งหมด",
-        "source": "[UNVERIFIED] ต้องหาเอกสารรองรับ",
-        "source_ref": "",
-        "verified": false
+        "unit_alt": "วัน/ปี",
+        "display": "42% ของเวลาทำงาน = 84 วัน/ปี (สสค. 2563)",
+        "source": "สสค. / OECD TALIS",
+        "source_ref": "วารสารราชสีมาปริทัศน์ 1(1) 2568 อ้าง สสค. 2563; OECD TALIS 2018 (~43% เวลาสอน)",
+        "verified": true
+      }
+    ]
+  },
+  "pillar_5": {
+    "title": "Research Insights 2026 — Pain Point เชิงลึก (จาก sub-agent research 13 ส.ค. 2569)",
+    "stats": [
+      {
+        "id": "students_no_direction",
+        "label": "นักเรียน ม.ปลาย ที่ยังไม่รู้ว่าจะเรียนอะไร/ทำอาชีพอะไร",
+        "value_min": 59,
+        "value_max": 60,
+        "unit": "%",
+        "display": "59–60% (ผลสำรวจ ไม่ใช่สถิติทางการ)",
+        "source": "MGR Online / AdmissionPremium",
+        "source_ref": "mgronline.com/live/detail/9660000049891; admissionpremium.com/content/3296",
+        "verified": false,
+        "note": "เป็นแบบสำรวจ/ความเห็นผู้บริหาร ใช้เป็นทิศทางได้ แต่ห้ามเขียนเป็นสถิติทางการ"
+      },
+      {
+        "id": "children_out_of_system",
+        "label": "เด็กอายุ 3–18 ปี นอกระบบการศึกษา",
+        "value": 1025514,
+        "unit": "คน",
+        "display": "1.02 ล้านคน (8.41%) — 394,039 คนอยู่ในวัยบังคับ",
+        "source": "กสศ. 2567",
+        "source_ref": "sdgmove.com/2024/06/04/report-children-dropping-out-of-the-education-system/",
+        "verified": true
+      },
+      {
+        "id": "guidance_hours",
+        "label": "ชั่วโมงแนะแนวจริงต่อเด็กต่อปี",
+        "value_min": 10,
+        "value_max": 15,
+        "unit": "ชั่วโมง/ปี",
+        "display": "10–15 ชม./ปี เป็นเพียงกิจกรรมขั้นพื้นฐาน",
+        "source": "UNICEF Thailand",
+        "source_ref": "Mapping of career guidance services (ผ่าน the101.world)",
+        "verified": true
+      },
+      {
+        "id": "university_seats_exceed",
+        "label": "ที่นั่งรับเข้า มหาวิทยาลัย > จำนวนผู้เข้าสอบ",
+        "value": null,
+        "unit": null,
+        "display": "ที่นั่งทั่วประเทศมากกว่าผู้สมัคร — มหาวิทยาลัยต้องเปิดรับตรงหลายรอบไล่เก็บ",
+        "source": "The MATTER (มี.ค. 2569)",
+        "source_ref": "thematter.co/brief/explainer/difficult-exams/258321",
+        "verified": true
+      },
+      {
+        "id": "gamification_effect",
+        "label": "ผลของ Gamification ต่อการเรียนรู้ (Meta-analysis)",
+        "value": 0.49,
+        "unit": "effect size g",
+        "display": "ความรู้ g=0.49, แรงจูงใจ g=0.36, พฤติกรรม g=0.25",
+        "source": "Sailer & Homner (2019)",
+        "source_ref": "doi.org/10.1007/s10648-019-09498-w",
+        "verified": true
+      },
+      {
+        "id": "rewards_harm_intrinsic",
+        "label": "รางวัลจับต้องได้ทำลายแรงจูงใจภายใน",
+        "value_min": -0.28,
+        "value_max": -0.4,
+        "unit": "d",
+        "display": "d = −0.28 ถึง −0.40 (เด็กอ่อนไหวกว่า); คำชมเพิ่ม +0.33",
+        "source": "Deci, Koestner & Ryan (1999)",
+        "source_ref": "pubmed.ncbi.nlm.nih.gov/10589297/",
+        "verified": true,
+        "note": "ออกแบบ Reward เป็น 'โอกาสจริง' (ค่าย/บูทแคมป์) ไม่ใช่ของรางวัลรายกิจกรรม"
+      },
+      {
+        "id": "role_model_effect",
+        "label": "ผลของ Role Model ต่อการเลือกสาขา (Field experiment)",
+        "value": 8,
+        "unit": "จุดเปอร์เซ็นต์",
+        "display": "พบ role model หญิง → นักศึกษาหญิงเลือกเรียนเอก econ เพิ่มขึ้น 8 pp",
+        "source": "Porter & Serra (2020)",
+        "source_ref": "doi.org/10.1257/app.20180426",
+        "verified": true
+      },
+      {
+        "id": "generation_employment",
+        "label": "อัตราได้งานของ Generation Thailand",
+        "value": 79,
+        "unit": "%",
+        "display": "79% ได้งานภายใน 6 เดือน (553 คนจบหลักสูตรตั้งแต่ 2021)",
+        "source": "Generation Thailand",
+        "source_ref": "thailand.generation.org",
+        "verified": true
+      },
+      {
+        "id": "bootcamp_cost",
+        "label": "ค่าเรียน Bootcamp Full-stack (TechUp)",
+        "value": 45000,
+        "unit": "บาท",
+        "display": "45,000 บาท/รุ่น (มี ISA หลังได้งาน)",
+        "source": "TechUp Thailand",
+        "source_ref": "techupth.com/full-stack-dev-bootcamp",
+        "verified": true
       }
     ]
   },
