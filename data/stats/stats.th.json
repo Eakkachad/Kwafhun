@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "project": "คว้าฝัน (Catch the Dream)",
+    "competition": "AIS JUMP THAILAND Hackathon 2026",
+    "language": "th",
+    "updated": "2026-08-13",
+    "note": "ทุกตัวเลขต้องมี source กำกับ ห้ามใช้ตัวเลข [UNVERIFIED] ในงานนำเสนอโดยไม่ผ่าน Researcher"
+  },
+  "pillar_1": {
+    "title": "วิกฤตความเหลื่อมล้ำทางการศึกษาและกับดักความยากจนข้ามรุ่น",
+    "stats": [
+      {
+        "id": "poor_students_total",
+        "label": "นักเรียนยากจนและยากจนพิเศษ",
+        "value": 1800000,
+        "unit": "คน",
+        "display": "1.8 ล้านคน",
+        "source": "กสศ.",
+        "source_ref": "รายงานสถานการณ์ความเหลื่อมล้ำทางการศึกษา / ระบบ iSEE",
+        "verified": true
+      },
+      {
+        "id": "poorest_household_income",
+        "label": "รายได้เฉลี่ยครัวเรือนยากจนพิเศษ",
+        "value_min": 34,
+        "value_max": 41,
+        "unit": "บาท/วัน",
+        "display": "34–41 บาท/วัน (~1,000–1,200 บาท/เดือน)",
+        "source": "กสศ.",
+        "source_ref": "รายงานสถานการณ์ความเหลื่อมล้ำทางการศึกษา",
+        "verified": true
+      },
+      {
+        "id": "higher_ed_gap_q1",
+        "label": "โอกาสเรียนต่ออุดมศึกษา กลุ่มยากจนที่สุด 20% (Q1)",
+        "value_min": 10,
+        "value_max": 12.4,
+        "unit": "%",
+        "display": "10–12.4%",
+        "source": "กสศ.",
+        "source_ref": "รายงานทุนมนุษย์ / สารสนเทศเพื่อความเสมอภาคทางการศึกษา",
+        "verified": true
+      },
+      {
+        "id": "higher_ed_gap_q5",
+        "label": "โอกาสเรียนต่ออุดมศึกษา กลุ่มฐานะดีที่สุด 20% (Q5)",
+        "value_min": 65,
+        "value_max": 80,
+        "unit": "%",
+        "display": "65–80%",
+        "source": "กสศ.",
+        "source_ref": "รายงานทุนมนุษย์ / สารสนเทศเพื่อความเสมอภาคทางการศึกษา",
+        "verified": true
+      },
+      {
+        "id": "urban_rural_divide",
+        "label": "คุณภาพโรงเรียนชนบทล้าหลังเมือง (Learning Gap)",
+        "value": 2,
+        "unit": "ปีการศึกษา",
+        "display": "ล้าหลังเฉลี่ย 2 ปีการศึกษา",
+        "source": "กสศ.",
+        "source_ref": "รายงานความเหลื่อมล้ำหลัง COVID-19",
+        "verified": true
+      }
+    ]
+  },
+  "pillar_2": {
+    "title": "ช่องว่างความฝันและค่านิยมอาชีพ (Dream Gap & Career Narrowing)",
+    "stats": [
+      {
+        "id": "career_narrowing",
+        "label": "เด็กอายุ 15 ปี ที่ฝันกระจุก 10 อาชีพดั้งเดิม",
+        "value_min": 47,
+        "value_max": 50,
+        "unit": "%",
+        "display": "47–50%",
+        "source": "OECD",
+        "source_ref": "PISA Results — Career Expectations Study",
+        "verified": true
+      },
+      {
+        "id": "circumscription_age",
+        "label": "วัยที่เด็กเริ่มตัดตัวเลือกอาชีพ (Circumscription)",
+        "value_min": 6,
+        "value_max": 8,
+        "unit": "ปี",
+        "display": "6–8 ปี",
+        "source": "Gottfredson (1981/2002)",
+        "source_ref": "Circumscription and Compromise: A Developmental Theory of Occupational Aspirations",
+        "verified": true
+      },
+      {
+        "id": "intrinsic_motivation_retention",
+        "label": "ผลของ Intrinsic Motivation ต่อ Retention Rate",
+        "value": null,
+        "unit": null,
+        "display": "เด็กมีเป้าหมาย + แรงสนับสนุน = Retention สูงขึ้นอย่างมีนัยสำคัญ",
+        "source": "[UNVERIFIED] ต้องหาเอกสารรองรับ",
+        "source_ref": "",
+        "verified": false
+      }
+    ]
+  },
+  "pillar_3": {
+    "title": "วิกฤตการขาดแคลนแรงงานทักษะสูงและผลกระทบทางเศรษฐกิจ",
+    "stats": [
+      {
+        "id": "high_skilled_shortage",
+        "label": "การขาดแคลนแรงงานทักษะสูง (STEM/AI/Digital)",
+        "value_min": 300000,
+        "value_max": 500000,
+        "unit": "คน",
+        "display": "300,000–500,000 คน (5 ปีข้างหน้า)",
+        "source": "NESDC (สภาพัฒน์)",
+        "source_ref": "รายงานภาวะสังคมไทย / แผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ",
+        "verified": true
+      },
+      {
+        "id": "skill_mismatch_cost",
+        "label": "ต้นทุนความสูญเสียจาก Skill Mismatch",
+        "value": 3300000000000,
+        "unit": "บาท",
+        "display": "3.3 ล้านล้านบาท",
+        "source": "TDRI",
+        "source_ref": "รายงานแนวโน้มความต้องการแรงงานและการปรับตัวของระบบการศึกษา",
+        "verified": true
+      },
+      {
+        "id": "informal_low_skill_labor",
+        "label": "สัดส่วนแรงงานนอกระบบและทักษะต่ำ",
+        "value": 50,
+        "unit": "%",
+        "display": "มากกว่า 50% ของแรงงานทั้งหมด",
+        "source": "[UNVERIFIED] ต้องตรวจแหล่งที่มาชัดเจน",
+        "source_ref": "",
+        "verified": false
+      }
+    ]
+  },
+  "pillar_4": {
+    "title": "ข้อจำกัดของระบบแนะแนวและโครงสร้างพื้นฐานในโรงเรียนไทย",
+    "stats": [
+      {
+        "id": "extension_schools",
+        "label": "โรงเรียนขยายโอกาส (ป.1–ม.3) ในสังกัด สพฐ.",
+        "value": 7000,
+        "unit": "แห่ง",
+        "display": "7,000+ แห่ง",
+        "source": "สพฐ.",
+        "source_ref": "ข้อมูลโรงเรียนขยายโอกาสทางการศึกษา",
+        "verified": true
+      },
+      {
+        "id": "guidance_teacher_shortage",
+        "label": "โรงเรียนที่ไม่มีครูแนะแนวตรงสาย",
+        "value_min": 60,
+        "value_max": 70,
+        "unit": "%",
+        "display": "60–70% (โรงเรียนขนาดกลาง/เล็กในต่างจังหวัด)",
+        "source": "[UNVERIFIED] ต้องหาเอกสารรองรับ",
+        "source_ref": "",
+        "verified": false
+      },
+      {
+        "id": "teacher_paperwork_load",
+        "label": "เวลาครูที่ใช้กับงานเอกสาร/การประเมิน",
+        "value_min": 30,
+        "value_max": 40,
+        "unit": "%",
+        "display": "30–40% ของเวลาทำงานทั้งหมด",
+        "source": "[UNVERIFIED] ต้องหาเอกสารรองรับ",
+        "source_ref": "",
+        "verified": false
+      }
+    ]
+  },
+  "target_metrics": {
+    "title": "ตัวชี้วัดกลุ่มเป้าหมายและผลลัพธ์",
+    "stats": [
+      {
+        "id": "primary_target_volume",
+        "label": "กลุ่มเป้าหมายหลัก (นักเรียน ป.5–ม.3 ต่างจังหวัด)",
+        "value": 3200000,
+        "unit": "คน",
+        "display": "~3.2 ล้านคน (ประมาณการจากสัดส่วน)",
+        "source": "[UNVERIFIED] การคำนวณของทีม",
+        "source_ref": "",
+        "verified": false
+      },
+      {
+        "id": "teacher_target",
+        "label": "ครูในโรงเรียนขยายโอกาส",
+        "value": 150000,
+        "unit": "คน",
+        "display": "~150,000 คน",
+        "source": "[UNVERIFIED] การคำนวณของทีม",
+        "source_ref": "",
+        "verified": false
+      }
+    ]
+  }
+}

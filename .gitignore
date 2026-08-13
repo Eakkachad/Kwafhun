@@ -1,0 +1,24 @@
+# --- Node (สำหรับ app/ เมื่อเริ่ม) ---
+node_modules/
+dist/
+build/
+.next/
+out/
+*.local
+.env
+.env.local
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Design ลิขสิทธิ์/ดิบ (ไม่ควร commit ไฟล์ใหญ่) ---
+design/slides/raw/
+design/wireframes/raw/
+
+# --- Logs / Temp ---
+*.log
+logs/
+tmp/

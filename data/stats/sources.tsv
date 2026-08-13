@@ -1,0 +1,17 @@
+id	label	source	source_ref	status	note
+poor_students_total	นักเรียนยากจนและยากจนพิเศษ 1.8 ล้านคน	กสศ.	รายงานสถานการณ์ความเหลื่อมล้ำทางการศึกษา / ระบบ iSEE	verified	
+poorest_household_income	รายได้เฉลี่ยครัวเรือนยากจนพิเศษ 34–41 บาท/วัน	กสศ.	รายงานสถานการณ์ความเหลื่อมล้ำทางการศึกษา	verified	
+higher_ed_gap_q1	โอกาสเรียนต่ออุดมศึกษา Q1 = 10–12.4%	กสศ.	รายงานทุนมนุษย์ / สารสนเทศเพื่อความเสมอภาคทางการศึกษา	verified	
+higher_ed_gap_q5	โอกาสเรียนต่ออุดมศึกษา Q5 = 65–80%	กสศ.	รายงานทุนมนุษย์ / สารสนเทศเพื่อความเสมอภาคทางการศึกษา	verified	
+urban_rural_divide	โรงเรียนชนบทล้าหลังเมือง 2 ปีการศึกษา	กสศ.	รายงานความเหลื่อมล้ำหลัง COVID-19	verified	
+career_narrowing	เด็ก 15 ปี ฝันกระจุก 10 อาชีพ = 47–50%	OECD	PISA Results — Career Expectations Study	verified	
+circumscription_age	วัยตัดตัวเลือกอาชีพ = 6–8 ปี	Gottfredson (1981/2002)	Circumscription and Compromise: A Developmental Theory of Occupational Aspirations	verified	
+intrinsic_motivation_retention	Intrinsic Motivation → Retention สูงขึ้น	[UNVERIFIED]		unverified	ต้องหา paper รองรับ
+high_skilled_shortage	ขาดแคลนแรงงานทักษะสูง 300,000–500,000 คน	NESDC (สภาพัฒน์)	รายงานภาวะสังคมไทย / แผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ	verified	
+skill_mismatch_cost	ความสูญเสีย Skill Mismatch 3.3 ล้านล้านบาท	TDRI	รายงานแนวโน้มความต้องการแรงงาน	verified	
+informal_low_skill_labor	แรงงานนอกระบบ > 50%	[UNVERIFIED]		unverified	ต้องหาข้อมูลรองรับ
+extension_schools	โรงเรียนขยายโอกาส 7,000+ แห่ง	สพฐ.	ข้อมูลโรงเรียนขยายโอกาสทางการศึกษา	verified	
+guidance_teacher_shortage	60–70% ไม่มีครูแนะแนวตรงสาย	[UNVERIFIED]		unverified	ต้องหาเอกสารรองรับ
+teacher_paperwork_load	ครูใช้เวลาเอกสาร 30–40%	[UNVERIFIED]		unverified	ต้องหาเอกสารรองรับ
+primary_target_volume	กลุ่มเป้าหมาย ~3.2 ล้านคน	[UNVERIFIED]		unverified	คำนวณจากสัดส่วน
+teacher_target	ครู ~150,000 คน	[UNVERIFIED]		unverified	คำนวณจากสัดส่วน
