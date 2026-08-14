@@ -81,6 +81,6 @@
 - [ ] ตัวเลขตรงกับ Data Bank (`data/stats/stats.th.json`)
 - [ ] ไม่มี Overclaim (ดู `docs/03-architecture/risk-defense.md`) — ไม่เคลม "ลดภาระ 70%", ไม่เคลมตัวเลขมหภาคว่าเป็นผลของเรา
 - [ ] ระบุการบูรณาการ AIS ครบ (5G, LearnDi Badge, Cloud) — ใช้ "ข้อมูลที่ได้รับอนุญาต" ไม่ใช้อ้าง API สาธารณะ
-- [ ] มีสถาปัตยกรรม PDPA สองชั้น (Anonymous วิเคราะห์ + Consent รายงาน สพฐ.) สำหรับเด็ก <15 ปี
+- [ ] มีสถาปัตยกรรม PDPA สองชั้น (Anonymous วิเคราะห์ + Consent รายงาน สพฐ.) สำหรับเด็กอายุเกิน 10 ปี ตาม PDPA มาตรา 20 (ไม่ใช่ 15 ปี)
 - [ ] คอร์สคัดกรองระบุว่าเกิดขึ้น "ในคาบเรียน" (ทุกคนเท่าเทียม) ไม่ใช่ให้เรียนที่บ้าน
 - [ ] Solution (ข้อ 4) ใช้คำว่า "Constraint-Aware Matching Engine" ไม่ใช่ "RAG"/"AI agent" — ตรงกับ `docs/03-architecture/risk-defense.md`

@@ -7,8 +7,8 @@ urban_rural_divide	โรงเรียนชนบทล้าหลังเ�
 career_narrowing	เด็ก 15 ปี ฝันกระจุก 10 อาชีพ = 47–50%	OECD	PISA Results — Career Expectations Study	verified	
 circumscription_age	วัยตัดตัวเลือกอาชีพ = 6–8 ปี	Gottfredson (1981/2002)	Circumscription and Compromise: A Developmental Theory of Occupational Aspirations	verified	
 intrinsic_motivation_retention	Intrinsic Motivation → Retention สูงขึ้น	[UNVERIFIED]		unverified	ต้องหา paper รองรับ
-high_skilled_shortage	ขาดแคลนแรงงานทักษะสูง 300,000–500,000 คน	NESDC (สภาพัฒน์)	รายงานภาวะสังคมไทย / แผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ	verified	
-skill_mismatch_cost	ความสูญเสีย Skill Mismatch 3.3 ล้านล้านบาท	TDRI	รายงานแนวโน้มความต้องการแรงงาน	verified	
+high_skilled_shortage	ขาดแคลนแรงงานทักษะสูง 300,000–500,000 คน	NESDC (สภาพัฒน์)	รายงานภาวะสังคมไทย / แผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ	unverified	14ส.ค.69: หาเอกสารต้นทางไม่พบ ใช้ nxpo_high_skill_demand แทน
+skill_mismatch_cost	ความสูญเสีย Skill Mismatch 3.3 ล้านล้านบาท	World Bank + กสศ. (ASAT)	en.eef.or.th/2024/03/07/thailand-is-facing-a-crisis-of-foundational-skills/	verified	แก้ไข 14ส.ค.69: เดิมอ้างผิดเป็น TDRI
 informal_low_skill_labor	แรงงานนอกระบบ > 50%	[UNVERIFIED]		unverified	ต้องหาข้อมูลรองรับ
 extension_schools	โรงเรียนขยายโอกาส 7,000+ แห่ง	สพฐ.	ข้อมูลโรงเรียนขยายโอกาสทางการศึกษา	verified	
 guidance_teacher_shortage	60–70% ไม่มีครูแนะแนวตรงสาย	[UNVERIFIED]		unverified	ต้องหาเอกสารรองรับ
@@ -21,6 +21,17 @@ university_seats_exceed	ที่นั่งมหาวิทยาลัย >
 gamification_effect	Gamification effect g=0.49 (ความรู้)	Sailer & Homner 2019	doi.org/10.1007/s10648-019-09498-w	verified	
 rewards_harm_intrinsic	รางวัลทำลาย intrinsic motivation d=-0.28~-0.40	Deci, Koestner & Ryan 1999	pubmed.ncbi.nlm.nih.gov/10589297/	verified	
 role_model_effect	Role model เพิ่มการเลือกสาขา 8 pp	Porter & Serra 2020	doi.org/10.1257/app.20180426	verified	
-generation_employment	Generation 79% ได้งาน 6 เดือน	Generation Thailand	thailand.generation.org	verified	
-bootcamp_cost	Bootcamp Full-stack 45,000 บาท	TechUp	techupth.com/full-stack-dev-bootcamp	verified	
+generation_employment	Generation 79% ได้งาน 6 เดือน	Generation Thailand	thailand.generation.org	unverified	ลดสถานะ 14ส.ค.69: ยืนยันซ้ำไม่ได้
+bootcamp_cost	Bootcamp Full-stack 45,000 บาท	TechUp	techupth.com/full-stack-dev-bootcamp	unverified	ลดสถานะ 14ส.ค.69: ยืนยันซ้ำไม่ได้
 students_no_direction	59-60% ม.ปลายไม่รู้จะเรียนอะไร	MGR Online / AdmissionPremium	mgronline.com/live/detail/9660000049891	unverified	survey ไม่ใช่สถิติทางการ
+nxpo_high_skill_demand	ความต้องการแรงงานทักษะสูง 1.08M คน (2568-2572)	NXPO + IRIS Consulting	nationthailand.com/business/economy/40051945	verified	ใหม่ 14ส.ค.69
+workforce_gap_2037	ช่องว่างแรงงาน 44.71M อุปสงค์ vs 40.7M อุปทาน ปี 2580	NESDC	nationthailand.com/news/policy/40038538	verified	ใหม่ 14ส.ค.69
+asat_literacy_gap	ทักษะอ่านต่ำกว่ามาตรฐาน 64.7%	World Bank + กสศ. (ASAT 2022)	en.eef.or.th/2024/03/07/thailand-is-facing-a-crisis-of-foundational-skills/	verified	ใหม่ 14ส.ค.69
+eef_annual_budget	งบ กสศ. 7.99 พันล้านบาท/ปี (2567)	กสศ.	eef.or.th/news-23012023-budget/	verified	ใหม่ 14ส.ค.69
+eef_tax_deduction	ลดหย่อนภาษี 2 เท่า บริจาค กสศ. ถึง 2571	พรฎ. (ฉบับที่ 782) 2567	eef.or.th/news-271223/	verified	ใหม่ 14ส.ค.69
+thai_neet_rate	NEET rate 12.82% (2024)	World Bank WDI	tradingeconomics.com/thailand/share-of-youth-not-in-education...	verified	ใหม่ 14ส.ค.69
+pisa_below_level2	68%/65% ต่ำกว่า PISA Level 2 (คณิต/อ่าน)	OECD PISA 2022	oecd.org PISA 2022 Country Note Thailand	verified	ใหม่ 14ส.ค.69
+career_narrowing_oecd_average	47-50% อาจเป็นค่าเฉลี่ย OECD ไม่ใช่ตัวไทยเฉพาะ	OECD	oecd.org/.../the-state-of-global-teenage-career-preparation	unverified	ใหม่ 14ส.ค.69 - ต้องระบุว่าเป็นค่าเฉลี่ย OECD ในสไลด์
+tcas_seat_surplus_2024	TCAS67 รอบ3: ที่นั่ง163,025 vs ผู้สมัคร132,004	ทปอ.	bangkokbiznews.com/health/education/1129062	verified	ใหม่ 14ส.ค.69
+thailand_gini	Gini 43.3% (2564) สูงสุดในเอเชียตะวันออก-แปซิฟิก	World Bank	worldbank.org Bridging the Gap Thailand	verified	ใหม่ 14ส.ค.69
+thailand_birth_decline	เกิดใหม่ 462,240 คน (2567) ต่ำสุดรอบ75ปี	สถิติชีพ (สื่อรายงาน)	bangkokpost.com/thailand/general/2952626	unverified	ใหม่ 14ส.ค.69 - secondary source

@@ -168,7 +168,7 @@
 | ลิขสิทธิ์วิดีโอ Crowdsourced | ใช้เฉพาะที่ได้รับอนุญาต/CC/ผลิตเอง + คัดกรองคอนเทนต์ก่อนเผยแพร่ |
 | ความปลอดภัยเด็กใน Mentor Network | Vetting + Monitor + ช่องทางรายงาน + Consent ผู้ปกครองก่อนเสมอ |
 | Gamification ทำลายแรงจูงใจภายใน | ออกแบบตาม SDT — Reward = โอกาสจริง (ค่าย/บูทแคมป์) ไม่ใช่ของรางวัลรายกิจกรรม |
-| PDPA ข้อมูลเด็ก <15 ปี | **Two-Tier Data Model**: ชั้นวิเคราะห์ = Anonymous ID, ชั้นรายงาน สพฐ. = ต้องมี Consent ผู้ปกครอง |
+| PDPA ข้อมูลเด็กอายุเกิน 10 ปี (มาตรา 20) | **Two-Tier Data Model**: ชั้นวิเคราะห์ = Anonymous ID, ชั้นรายงาน สพฐ. = ต้องมี Consent ร่วมของเด็ก+ผู้ปกครอง |
 | ตัวเลขมหภาค (3.3 ล้านล้าน, shortage) | เล่าเป็น "บริบทของปัญหา" เท่านั้น ไม่ใช่ผลลัพธ์ที่เราวัดได้ |
 | แรงบันดาลใจสถาปัตยกรรมจากงานวิจัยทีม/เพื่อน (katgpt-rs, alice, AXIOM) | ห้ามอ้างว่า "ใช้" โปรเจกต์เหล่านั้นหรือโชว์ตัวเลข performance ของเขาเป็นของเรา — เป็นแค่แรงบันดาลใจสถาปัตยกรรม |
 
@@ -192,11 +192,12 @@
 
 ## 12. งานที่ยังค้าง / Gap ที่ต้องปิดก่อนส่ง
 
-1. ตรวจสอบตัวเลข `[UNVERIFIED]` ใน Data Bank ก่อนใช้ในสไลด์จริง (guidance_teacher_shortage, informal_low_skill_labor, intrinsic_motivation_retention, primary_target_volume, teacher_target)
+0. **อ่าน [`docs/04-research/CORRECTIONS-2026-08-14.md`](04-research/CORRECTIONS-2026-08-14.md) ก่อน** — deep research pass ล่าสุดพบ factual error ที่แก้ไปแล้วในเอกสาร (PDPA อายุ, แหล่งอ้างอิง 3.3 ล้านล้าน, ชื่อโครงการต้นแบบ) + จุดที่ยังไม่ได้แก้ใน `image-prompts.md`/`pitch-deck.html` + เกณฑ์ตัดสิน JUMP 2026 ที่ต้องยืนยันซ้ำก่อนส่ง
+1. ตรวจสอบตัวเลข `[UNVERIFIED]` ใน Data Bank ก่อนใช้ในสไลด์จริง (guidance_teacher_shortage, informal_low_skill_labor, intrinsic_motivation_retention, primary_target_volume, teacher_target, high_skilled_shortage, generation_employment, bootcamp_cost — เพิ่มเข้ามาจาก research pass 14 ส.ค.)
 2. หา pilot school/มหาวิทยาลัยเซ็น LOI อย่างน้อย 1 แห่งก่อน Demo Day (ใช้ `pilot-outreach-kit.md`)
 3. ทดสอบแบบวัด North Star (MDMSES/CDMSE ที่ปรับแล้ว) กับกลุ่มตัวอย่าง 30 คน + ตรวจเรื่องลิขสิทธิ์สเกล
 4. พัฒนา Prototype ต่อจาก `app/` ให้ครบ 4 หน้าจอ P0 (Discovery, Roadmap, Teacher Dashboard, Matching)
-5. สร้างภาพสไลด์จริงจาก `design/slides/image-prompts.md` แล้วประกอบเป็น PDF/PPTX
+5. สร้างภาพสไลด์จริงจาก `design/slides/image-prompts.md` แล้วประกอบเป็น PDF/PPTX (อัปเดตตัวเลข career_narrowing ให้ระบุ "ค่าเฉลี่ย OECD" ก่อน generate)
 
 ---
 
@@ -215,6 +216,12 @@
 | `docs/04-research/pain-points.md` | Deep research pain point 6 มิติ (นักเรียน/ครู/มหาวิทยาลัย/gamification/เงินทุน/AIS) |
 | `docs/04-research/teacher-painpoints.md` | Research เจาะลึกปัญหาครูไทย (งานเอกสาร, ว.PA, EdTech adoption) |
 | `docs/04-research/benchmarks.md` | Benchmark โลก (Naviance, Roadtrip Nation, iSEE) + ทฤษฎีที่ใช้ |
+| `docs/04-research/CORRECTIONS-2026-08-14.md` | **สรุป deep research pass ล่าสุด** — สิ่งที่แก้แล้ว/ยังไม่แก้/ตัวเลขใหม่พร้อมใช้/gap |
+| `docs/04-research/competitive-deepdive.md` | คู่แข่งไทย+สากล พร้อม users/funding/pricing จริง (source+URL+ปี ทุกตัว) |
+| `docs/04-research/market-financial-deepdive.md` | TAM/SAM/SOM, งบ กสศ./สพฐ., unit economics, กลไกเงินทุน |
+| `docs/04-research/problem-deepdive-2026-08.md` | NEET, PISA 2022 เต็ม, TCAS seat surplus, Gini, demographic — เจาะลึกกว่า pain-points.md เดิม |
+| `docs/04-research/evidence-base.md` | Citation วิชาการเต็ม (DOI ยืนยันแล้ว) — role model, career guidance efficacy, CDSE, gamification/SDT |
+| `docs/04-research/policy-ais-deepdive.md` | กสศ./สพฐ./TCAS/PDPA/AIS ecosystem พร้อม overclaim-risk flags |
 | `docs/05-roadmap/roadmap.md` | เฟสพัฒนา + กฎห้าม overclaim ตัวเลข |
 | `design/slides/image-prompts.md` | Prompt ภาพสไลด์ 10 แผ่นสำหรับ ChatGPT Image Model |
 | `data/stats/stats.th.json` | Data Bank ต้นทาง — ทุกตัวเลขต้องอ้างจากที่นี่ |

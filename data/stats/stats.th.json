@@ -113,6 +113,29 @@
         "display": "300,000–500,000 คน (5 ปีข้างหน้า)",
         "source": "NESDC (สภาพัฒน์)",
         "source_ref": "รายงานภาวะสังคมไทย / แผนพัฒนาเศรษฐกิจและสังคมแห่งชาติ",
+        "verified": false,
+        "note": "แก้ไข 14 ส.ค. 2569: ทีมวิจัยหาเอกสารต้นทาง NESDC ที่ระบุตัวเลขนี้ตรงๆ ไม่พบ (session ที่ผ่านมา) — ลดสถานะเป็น unverified ชั่วคราว แนะนำใช้ nxpo_high_skill_demand แทนถ้าต้องการตัวเลขที่มาชัดกว่า หรือใช้ workforce_gap_2037 ถ้าต้องการคง NESDC เป็นแหล่งอ้างอิง"
+      },
+      {
+        "id": "nxpo_high_skill_demand",
+        "label": "ความต้องการแรงงานทักษะสูง 10 อุตสาหกรรมเป้าหมาย (2568-2572)",
+        "value": 1080000,
+        "unit": "คน",
+        "display": "1.08 ล้านคน (5 ปีข้างหน้า) — Aviation/Logistics 440,573 · Smart Electronics/Robotics 226,423 · Digital 87,568 · ฯลฯ",
+        "source": "NXPO (สอวช.) + IRIS Consulting",
+        "source_ref": "nationthailand.com/business/economy/40051945 — เผยแพร่ 30 มิ.ย. 2568",
+        "verified": true,
+        "note": "ตัวเลขที่มาชัดเจนกว่าและใหม่กว่า NESDC 300-500k แนะนำใช้แทนหรือคู่กัน"
+      },
+      {
+        "id": "workforce_gap_2037",
+        "label": "ช่องว่างอุปสงค์-อุปทานแรงงานปี 2580",
+        "value_min": 40700000,
+        "value_max": 44710000,
+        "unit": "คน",
+        "display": "อุปสงค์แรงงาน 44.71 ล้านคน vs กำลังแรงงาน 40.7 ล้านคน ปี 2580",
+        "source": "NESDC (สภาพัฒน์)",
+        "source_ref": "nationthailand.com/news/policy/40038538 — 2567",
         "verified": true
       },
       {
@@ -120,10 +143,22 @@
         "label": "ต้นทุนความสูญเสียจาก Skill Mismatch",
         "value": 3300000000000,
         "unit": "บาท",
-        "display": "3.3 ล้านล้านบาท",
-        "source": "TDRI",
-        "source_ref": "รายงานแนวโน้มความต้องการแรงงานและการปรับตัวของระบบการศึกษา",
-        "verified": true
+        "display": "3.3 ล้านล้านบาท (20.1% ของ GDP, ข้อมูลปี 2565)",
+        "source": "World Bank + กสศ. (EEF) — Adult Skills Assessment Thailand (ASAT)",
+        "source_ref": "en.eef.or.th/2024/03/07/thailand-is-facing-a-crisis-of-foundational-skills/ — นำเสนอ High-Level Policy Forum ก.พ. 2567",
+        "verified": true,
+        "note": "แก้ไข 14 ส.ค. 2569: เดิมอ้างเป็น TDRI ซึ่งไม่ถูกต้อง แหล่งจริงคือ World Bank+EEF (ASAT) — TDRI มีสถิติของตัวเองแยกต่างหาก (บัณฑิตว่างงาน 300,000+ คน/ปี มูลค่าเสียโอกาส 10,000+ ล้านบาท/ปี) ห้ามใช้ปนกัน"
+      },
+      {
+        "id": "asat_literacy_gap",
+        "label": "ผู้ใหญ่ไทยทักษะการอ่านต่ำกว่ามาตรฐาน",
+        "value": 64.7,
+        "unit": "%",
+        "display": "64.7% (ชนบท 70%, ภาคเหนือ 89%)",
+        "source": "World Bank + กสศ. (ASAT 2022)",
+        "source_ref": "en.eef.or.th/2024/03/07/thailand-is-facing-a-crisis-of-foundational-skills/",
+        "verified": true,
+        "note": "ครอบคลุมอายุ 15-64 ปี 6 ภูมิภาครวม EEC; ทักษะดิจิทัลต่ำกว่ามาตรฐาน 74.1% (อายุ 40+ 80%, ภาคเหนือ 84%); ช่องว่างรายได้ตามระดับทักษะ 6,300 บาท/เดือน"
       },
       {
         "id": "informal_low_skill_labor",
@@ -198,7 +233,8 @@
         "display": "1.02 ล้านคน (8.41%) — 394,039 คนอยู่ในวัยบังคับ",
         "source": "กสศ. 2567",
         "source_ref": "sdgmove.com/2024/06/04/report-children-dropping-out-of-the-education-system/",
-        "verified": true
+        "verified": true,
+        "note": "อัปเดต 14 ส.ค. 2569: ตัวเลขใหม่กว่าจาก กสศ. คือ 982,304 คน (ปีการศึกษา 2567) ลดลงจาก 1,025,514 (ปีการศึกษา 2566) ดู matichon.co.th/weekly/column/article_765146 — อาจสลับใช้ตัวเลขใหม่กว่าถ้าต้องการความทันสมัย"
       },
       {
         "id": "guidance_hours",
@@ -261,7 +297,8 @@
         "display": "79% ได้งานภายใน 6 เดือน (553 คนจบหลักสูตรตั้งแต่ 2021)",
         "source": "Generation Thailand",
         "source_ref": "thailand.generation.org",
-        "verified": true
+        "verified": false,
+        "note": "ลดสถานะ 14 ส.ค. 2569: research pass ล่าสุดยืนยันตัวเลขนี้ไม่ได้ (ไม่พบใน thailand.generation.org โดยตรงในรอบนี้) ห้ามใช้จนกว่าจะยืนยันซ้ำ — เช่นเดียวกับ GenNX 85% ที่เคยอ้างในเอกสารอื่น (ไม่มีในไฟล์นี้แต่พบในเอกสารข้อความ ต้องลบ/ยืนยันก่อนใช้)"
       },
       {
         "id": "bootcamp_cost",
@@ -271,7 +308,96 @@
         "display": "45,000 บาท/รุ่น (มี ISA หลังได้งาน)",
         "source": "TechUp Thailand",
         "source_ref": "techupth.com/full-stack-dev-bootcamp",
+        "verified": false,
+        "note": "ลดสถานะ 14 ส.ค. 2569: research pass ยืนยันไม่ได้ แนะนำใช้ช่วงตลาดทั่วไปแทน: Generation Thailand 60,000-90,000 บาท (ก็ unverified) หรือ USD 1,800-6,000 ทั้งตลาด (Nucamp, unverified) — หรือไม่อ้างตัวเลขค่าเรียนที่เจาะจงจนกว่าจะยืนยันได้"
+      },
+      {
+        "id": "eef_annual_budget",
+        "label": "งบประมาณ กสศ. (EEF) ต่อปี",
+        "value": 7985786100,
+        "unit": "บาท",
+        "display": "~7.99 พันล้านบาท (ปีงบฯ 2567) ครอบคลุม 2,636,304 คน",
+        "source": "กสศ. (EEF)",
+        "source_ref": "eef.or.th/news-23012023-budget/ — ปีงบฯ 2567",
         "verified": true
+      },
+      {
+        "id": "eef_tax_deduction",
+        "label": "ลดหย่อนภาษี 2 เท่า บริจาค กสศ.",
+        "value": 2,
+        "unit": "เท่า",
+        "display": "ลดหย่อนได้ 2 เท่าของเงินบริจาค (ไม่เกิน 10% ของเงินได้พึงประเมิน) ผ่าน e-Donation ถึงสิ้นปี 2571",
+        "source": "พระราชกฤษฎีกา (ฉบับที่ 782) พ.ศ. 2567",
+        "source_ref": "eef.or.th/news-271223/",
+        "verified": true,
+        "note": "กลไกจูงใจสปอนเซอร์ที่พร้อมใช้ได้จริง — ใช้ในสไลด์ Business Model/CTA"
+      },
+      {
+        "id": "thai_neet_rate",
+        "label": "อัตราเยาวชนไทยที่ไม่ได้เรียน ไม่ได้ทำงาน ไม่ได้ฝึกอบรม (NEET)",
+        "value": 12.82,
+        "unit": "%",
+        "display": "12.82% (2024)",
+        "source": "World Bank WDI",
+        "source_ref": "tradingeconomics.com/thailand/share-of-youth-not-in-education-employment-or-training-total-percent-of-youth-population-wb-data.html",
+        "verified": true,
+        "note": "ตัวเลขเก่ากว่า (ILO/UNICEF 2021): ~1.4 ล้านคน (15%) — 70% เป็นผู้หญิง 68% ระบุว่าขาดแรงจูงใจเพราะมองไม่เห็นโอกาส (สนับสนุนธีม Dream Gap โดยตรง)"
+      },
+      {
+        "id": "pisa_below_level2",
+        "label": "นักเรียนไทยที่คะแนน PISA 2022 ต่ำกว่าเกณฑ์พื้นฐาน (Level 2)",
+        "value_min": 65,
+        "value_max": 68,
+        "unit": "%",
+        "display": "คณิต 68% ต่ำกว่า Level 2 (คะแนน 394) · การอ่าน 65% ต่ำกว่า Level 2 (คะแนน 379) · วิทยาศาสตร์ 409",
+        "source": "OECD PISA 2022",
+        "source_ref": "oecd.org — PISA 2022 Results Country Note: Thailand",
+        "verified": true,
+        "note": "แย่ลงจากปี 2555: +19/+32/+19 จุด (คณิต/อ่าน/วิทย์) ตามลำดับ — ใช้แสดงว่าฐานสมรรถนะแย่ลง ไม่ใช่แค่คงที่"
+      },
+      {
+        "id": "career_narrowing_oecd_average",
+        "label": "หมายเหตุแหล่งที่มาของสถิติ career_narrowing (47-50%)",
+        "value": null,
+        "unit": null,
+        "display": "ยืนยันได้ว่าเป็นค่าเฉลี่ย OECD (44% เด็กชาย, 50% เด็กหญิง ทั่วโลกฝันอยู่ใน 10 อาชีพ) — ยังยืนยันไม่ได้ว่าเป็นตัวเลขเฉพาะของไทย (หน้า PISA Vol III ของไทยเข้าไม่ได้ 403)",
+        "source": "OECD — The State of Global Teenage Career Preparation",
+        "source_ref": "oecd.org/en/publications/the-state-of-global-teenage-career-preparation_d5f8e3f2-en",
+        "verified": false,
+        "note": "แก้ไข 14 ส.ค. 2569: ต้องระบุในสไลด์ว่า '47-50% (ค่าเฉลี่ย OECD)' แทนการเขียนเหมือนเป็นตัวเลขเฉพาะของเด็กไทย จนกว่าจะยืนยันตัวเลขไทยได้จริง"
+      },
+      {
+        "id": "tcas_seat_surplus_2024",
+        "label": "ที่นั่งมหาวิทยาลัยเกินผู้สมัคร (TCAS67 รอบ 3)",
+        "value_min": 132004,
+        "value_max": 163025,
+        "unit": "คน",
+        "display": "ที่นั่ง 163,025 vs ผู้สมัคร 132,004 (ส่วนเกิน ~31,000 หรือ 23%)",
+        "source": "ทปอ. (Council of University Presidents of Thailand)",
+        "source_ref": "bangkokbiznews.com/health/education/1129062 — TCAS67 รอบ 3, พ.ค. 2567",
+        "verified": true
+      },
+      {
+        "id": "thailand_gini",
+        "label": "ดัชนีความเหลื่อมล้ำทางรายได้ (Gini)",
+        "value": 43.3,
+        "unit": "%",
+        "display": "43.3% (2564) — สูงสุดในเอเชียตะวันออก-แปซิฟิก",
+        "source": "World Bank",
+        "source_ref": "worldbank.org/en/country/thailand/publication/bridging-the-gap-inequality-and-jobs-in-thailand — พ.ย. 2566",
+        "verified": true,
+        "note": "รวยที่สุด 10% ถือครองรายได้/ความมั่งคั่งกว่าครึ่งของประเทศ — อ้างอิงประโยค World Bank: 'inequality in Thailand begins very early in life...perpetuates over the life cycle and across generations'"
+      },
+      {
+        "id": "thailand_birth_decline",
+        "label": "จำนวนเกิดใหม่ต่อปี (2567) — ต่ำสุดในรอบ 75 ปี",
+        "value": 462240,
+        "unit": "คน",
+        "display": "462,240 คน (2567) ลดจาก 519,000 (2566) — ตายมากกว่าเกิดต่อเนื่องปีที่ 4",
+        "source": "สถิติชีพ (รายงานผ่านสื่อ)",
+        "source_ref": "bangkokpost.com/thailand/general/2952626",
+        "verified": false,
+        "note": "verified via news aggregation ไม่ใช่แหล่งปฐมภูมิโดยตรง (สำนักทะเบียนราษฎร์) — ใช้เป็น narrative hook 'เด็กแต่ละคนมีค่ามากขึ้นเพราะเด็กเกิดน้อยลง' ได้ แต่ควรยืนยันแหล่งปฐมภูมิก่อนใช้ทางการ"
       }
     ]
   },
